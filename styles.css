@@ -1,0 +1,82 @@
+/* Reset and General Styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header h1 {
+  float: left;
+}
+
+header nav ul {
+  float: right;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 2rem;
+}
+
+.hero .btn {
+  background: #333;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+}
+
+.hero .btn:hover {
+  background: #555;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  background: #f9f9f9;
+}
+
+.feature {
+  flex: 1;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
